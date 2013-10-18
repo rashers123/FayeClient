@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mikker/FayeClient.git", :commit => '113f70d6c95201a46021082254b873700cd90ed8' }
   s.source_files  = 'Library/*'
   s.requires_arc = true
-  s.dependency 'JSONKit', :git => 'https://github.com/JoistApp/JSONKit', :commit => 'ce52a6cf3ee52b500a3c5fffd32060b8dbf910e2'
+  s.dependency 'JSONKit', :git => 'https://github.com/JoistApp/JSONKit'
   s.dependency 'SocketRocket'
 end
