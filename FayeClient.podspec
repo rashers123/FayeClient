@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/jayztemplier/FayeClient"
   s.license      = { :type => 'MIT', :file => "LICENSE" }
   s.authors      = 'Paul Crawford', 'Jeremy Templier'
-  s.source       = { :git => "https://github.com/mikker/FayeClient.git", :commit => 'aeccbba4293a3e51996d998156050ddfa41fdca2' }
+  s.source       = { :git => "https://github.com/mikker/FayeClient.git", :commit => '113f70d6c95201a46021082254b873700cd90ed8' }
   s.source_files  = 'Library/*'
   s.requires_arc = true
-  s.dependency 'JSONKit' #, '~> 1.4'
+  s.dependency 'JSONKit', :git => 'https://github.com/JoistApp/JSONKit', :commit => 'ce52a6cf3ee52b500a3c5fffd32060b8dbf910e2'
   s.dependency 'SocketRocket'
 end
